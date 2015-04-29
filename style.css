@@ -56,6 +56,3 @@ body {
   box-sizing: border-box;
   outline: 0 none;
 }
-
-.search::selection {
-}
