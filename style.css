@@ -23,7 +23,7 @@ body {
 
 .suggest {
   list-style: none;
-  font-size: 1em;
+  font-size: 1.3em;
   line-height: 2em;
   margin: 0 30px;
   padding: 0;
@@ -46,7 +46,7 @@ body {
 .search {
   -webkit-appearance: none;
   width: -webkit-fill-available;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: 100;
   border: 1px solid #ffdb4c;
   border-radius: 0;
