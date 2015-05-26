@@ -23,7 +23,7 @@ body {
 
 .suggest {
   list-style: none;
-  font-size: 1.3em;
+  font-size: 1em;
   line-height: 2em;
   margin: 0 30px;
   padding: 0;
@@ -46,8 +46,8 @@ body {
 .search {
   -webkit-appearance: none;
   width: -webkit-fill-available;
-  font-size: 1.3em;
-  font-weight: 100;
+  font-size: 1em;
+  font-family: inherit;
   border: 1px solid #ffdb4c;
   border-radius: 0;
   box-shadow: none;
@@ -56,6 +56,14 @@ body {
   padding: 0 32px 0 8px;
   box-sizing: border-box;
   outline: 0 none;
+}
+
+.autofill {
+  display: block;
+  position: absolute;
+  color: rgba(0,0,0,.5);
+  margin-left: 29px;
+  bottom: 18px;
 }
 
 .clear {
